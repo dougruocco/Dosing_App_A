@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F810177E19B908AB0006FD67 /* dosing_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F810177D19B908AB0006FD67 /* dosing_3.png */; };
+		F8105D2119D9F16E007DCECA /* ALINIA_Dosing_APP_iPad_Screens_ISI_9_29_14-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8105D1E19D9F16E007DCECA /* ALINIA_Dosing_APP_iPad_Screens_ISI_9_29_14-1.png */; };
+		F8105D2219D9F16E007DCECA /* PI_Text_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F8105D1F19D9F16E007DCECA /* PI_Text_3.png */; };
+		F820DF28196D8DD50054082D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F820DF27196D8DD50054082D /* Foundation.framework */; };
+		F820DF2A196D8DD50054082D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F820DF29196D8DD50054082D /* CoreGraphics.framework */; };
+		F820DF2C196D8DD50054082D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F820DF2B196D8DD50054082D /* UIKit.framework */; };
+		F820DF32196D8DD50054082D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F820DF30196D8DD50054082D /* InfoPlist.strings */; };
+		F820DF34196D8DD50054082D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F820DF33196D8DD50054082D /* main.m */; };
+		F820DF38196D8DD50054082D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F820DF37196D8DD50054082D /* AppDelegate.m */; };
+		F820DF3B196D8DD50054082D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F820DF39196D8DD50054082D /* Main.storyboard */; };
+		F820DF3E196D8DD50054082D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F820DF3D196D8DD50054082D /* ViewController.m */; };
+		F820DF40196D8DD50054082D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F820DF3F196D8DD50054082D /* Images.xcassets */; };
+		F820DF47196D8DD50054082D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F820DF46196D8DD50054082D /* XCTest.framework */; };
+		F820DF48196D8DD50054082D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F820DF27196D8DD50054082D /* Foundation.framework */; };
+		F820DF49196D8DD50054082D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F820DF2B196D8DD50054082D /* UIKit.framework */; };
+		F820DF51196D8DD50054082D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F820DF4F196D8DD50054082D /* InfoPlist.strings */; };
+		F820DF53196D8DD50054082D /* AliniaDosing_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F820DF52196D8DD50054082D /* AliniaDosing_iPadTests.m */; };
+		F820DF64196D8FA50054082D /* ViewController_dosing.m in Sources */ = {isa = PBXBuildFile; fileRef = F820DF63196D8FA50054082D /* ViewController_dosing.m */; };
+		F820DF74196D90810054082D /* continue_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF67196D90810054082D /* continue_button.png */; };
+		F820DF75196D90810054082D /* mail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF68196D90810054082D /* mail_button.png */; };
+		F820DF76196D90810054082D /* PI_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF69196D90810054082D /* PI_button.png */; };
+		F820DF77196D90810054082D /* Load_Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF6A196D90810054082D /* Load_Screen.png */; };
+		F820DF78196D90810054082D /* PI_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF6B196D90810054082D /* PI_background.png */; };
+		F820DF79196D90810054082D /* dosing_background_text.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF6C196D90810054082D /* dosing_background_text.png */; };
+		F820DF7A196D90810054082D /* age_range_image.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF6D196D90810054082D /* age_range_image.png */; };
+		F820DF7B196D90810054082D /* dosing_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF6E196D90810054082D /* dosing_1.png */; };
+		F820DF7E196D90810054082D /* PI_text.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF71196D90810054082D /* PI_text.png */; };
+		F820DF7F196D90810054082D /* PI_text_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF72196D90810054082D /* PI_text_blank.png */; };
+		F820DF80196D90810054082D /* AgeRange_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F820DF73196D90810054082D /* AgeRange_button.png */; };
+		F820DF82196DA1990054082D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F820DF81196DA1990054082D /* MessageUI.framework */; };
+		F826C94319CCAD0C0020C9CD /* Load_Screen_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F826C93F19CCAD0C0020C9CD /* Load_Screen_2.png */; };
+		F826C94419CCAD0C0020C9CD /* dosing_background_text_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F826C94019CCAD0C0020C9CD /* dosing_background_text_2.png */; };
+		F826C94519CCAD0C0020C9CD /* PI_Text_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F826C94119CCAD0C0020C9CD /* PI_Text_2.png */; };
+		F826C94619CCAD0C0020C9CD /* PI_Text_blank_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F826C94219CCAD0C0020C9CD /* PI_Text_blank_2.png */; };
+		F83FE14519BA435B0031A6BC /* CoPay_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F83FE14419BA435B0031A6BC /* CoPay_Button.png */; };
+		F8500021198832CD006452E1 /* Safety Information Link.png in Resources */ = {isa = PBXBuildFile; fileRef = F850001D198832CD006452E1 /* Safety Information Link.png */; };
+		F87856011ADDBE700078D5DA /* dosing_background_text_noisi.png in Resources */ = {isa = PBXBuildFile; fileRef = F87856001ADDBE700078D5DA /* dosing_background_text_noisi.png */; };
+		F8B227A11B0675C4002906F6 /* dosing_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B227A01B0675C4002906F6 /* dosing_2.png */; };
+		F8B3EC411B1F7C3C00571DC8 /* ALINIA_ISI_Dosing_App_6_3_15_150dpi.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B3EC401B1F7C3C00571DC8 /* ALINIA_ISI_Dosing_App_6_3_15_150dpi.png */; };
+		F8FDB8291AC97C3600AC3315 /* Alinia_ISI.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB8231AC97C3600AC3315 /* Alinia_ISI.png */; };
+		F8FDB82A1AC97C3600AC3315 /* Alinia_PI_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB8241AC97C3600AC3315 /* Alinia_PI_1.png */; };
+		F8FDB82B1AC97C3600AC3315 /* Alinia_PI_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB8251AC97C3600AC3315 /* Alinia_PI_2.png */; };
+		F8FDB82C1AC97C3600AC3315 /* Alinia_PI_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB8261AC97C3600AC3315 /* Alinia_PI_3.png */; };
+		F8FDB82D1AC97C3600AC3315 /* Alinia_PI_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB8271AC97C3600AC3315 /* Alinia_PI_4.png */; };
+		F8FDB82E1AC97C3600AC3315 /* Alinia_PI_5.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB8281AC97C3600AC3315 /* Alinia_PI_5.png */; };
+		F8FDB8311AC97CF800AC3315 /* ViewController_ISI.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FDB8301AC97CF800AC3315 /* ViewController_ISI.m */; };
+		F8FDB8341AC986F700AC3315 /* ViewController_PI.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FDB8331AC986F700AC3315 /* ViewController_PI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F820DF4A196D8DD50054082D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F820DF1C196D8DD40054082D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F820DF23196D8DD50054082D;
+			remoteInfo = AliniaDosing_iPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F810177D19B908AB0006FD67 /* dosing_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dosing_3.png; sourceTree = "<group>"; };
+		F8105D1E19D9F16E007DCECA /* ALINIA_Dosing_APP_iPad_Screens_ISI_9_29_14-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALINIA_Dosing_APP_iPad_Screens_ISI_9_29_14-1.png"; sourceTree = "<group>"; };
+		F8105D1F19D9F16E007DCECA /* PI_Text_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_Text_3.png; sourceTree = "<group>"; };
+		F820DF24196D8DD50054082D /* AliniaDosing_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliniaDosing_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F820DF27196D8DD50054082D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F820DF29196D8DD50054082D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F820DF2B196D8DD50054082D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F820DF2F196D8DD50054082D /* AliniaDosing_iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AliniaDosing_iPad-Info.plist"; sourceTree = "<group>"; };
+		F820DF31196D8DD50054082D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F820DF33196D8DD50054082D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F820DF35196D8DD50054082D /* AliniaDosing_iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AliniaDosing_iPad-Prefix.pch"; sourceTree = "<group>"; };
+		F820DF36196D8DD50054082D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F820DF37196D8DD50054082D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F820DF3A196D8DD50054082D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F820DF3C196D8DD50054082D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F820DF3D196D8DD50054082D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F820DF3F196D8DD50054082D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F820DF45196D8DD50054082D /* AliniaDosing_iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliniaDosing_iPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F820DF46196D8DD50054082D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F820DF4E196D8DD50054082D /* AliniaDosing_iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AliniaDosing_iPadTests-Info.plist"; sourceTree = "<group>"; };
+		F820DF50196D8DD50054082D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F820DF52196D8DD50054082D /* AliniaDosing_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliniaDosing_iPadTests.m; sourceTree = "<group>"; };
+		F820DF62196D8FA50054082D /* ViewController_dosing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController_dosing.h; path = ../ViewController_dosing.h; sourceTree = "<group>"; };
+		F820DF63196D8FA50054082D /* ViewController_dosing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController_dosing.m; path = ../ViewController_dosing.m; sourceTree = "<group>"; };
+		F820DF67196D90810054082D /* continue_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue_button.png; sourceTree = "<group>"; };
+		F820DF68196D90810054082D /* mail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail_button.png; sourceTree = "<group>"; };
+		F820DF69196D90810054082D /* PI_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_button.png; sourceTree = "<group>"; };
+		F820DF6A196D90810054082D /* Load_Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Load_Screen.png; sourceTree = "<group>"; };
+		F820DF6B196D90810054082D /* PI_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_background.png; sourceTree = "<group>"; };
+		F820DF6C196D90810054082D /* dosing_background_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dosing_background_text.png; sourceTree = "<group>"; };
+		F820DF6D196D90810054082D /* age_range_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = age_range_image.png; sourceTree = "<group>"; };
+		F820DF6E196D90810054082D /* dosing_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dosing_1.png; sourceTree = "<group>"; };
+		F820DF71196D90810054082D /* PI_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_text.png; sourceTree = "<group>"; };
+		F820DF72196D90810054082D /* PI_text_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_text_blank.png; sourceTree = "<group>"; };
+		F820DF73196D90810054082D /* AgeRange_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AgeRange_button.png; sourceTree = "<group>"; };
+		F820DF81196DA1990054082D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F826C93F19CCAD0C0020C9CD /* Load_Screen_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Load_Screen_2.png; sourceTree = "<group>"; };
+		F826C94019CCAD0C0020C9CD /* dosing_background_text_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dosing_background_text_2.png; sourceTree = "<group>"; };
+		F826C94119CCAD0C0020C9CD /* PI_Text_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_Text_2.png; sourceTree = "<group>"; };
+		F826C94219CCAD0C0020C9CD /* PI_Text_blank_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PI_Text_blank_2.png; sourceTree = "<group>"; };
+		F83FE14419BA435B0031A6BC /* CoPay_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoPay_Button.png; sourceTree = "<group>"; };
+		F850001D198832CD006452E1 /* Safety Information Link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safety Information Link.png"; sourceTree = "<group>"; };
+		F87856001ADDBE700078D5DA /* dosing_background_text_noisi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dosing_background_text_noisi.png; sourceTree = "<group>"; };
+		F8B227A01B0675C4002906F6 /* dosing_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dosing_2.png; sourceTree = "<group>"; };
+		F8B3EC401B1F7C3C00571DC8 /* ALINIA_ISI_Dosing_App_6_3_15_150dpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ALINIA_ISI_Dosing_App_6_3_15_150dpi.png; sourceTree = "<group>"; };
+		F8FDB8231AC97C3600AC3315 /* Alinia_ISI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alinia_ISI.png; sourceTree = "<group>"; };
+		F8FDB8241AC97C3600AC3315 /* Alinia_PI_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alinia_PI_1.png; sourceTree = "<group>"; };
+		F8FDB8251AC97C3600AC3315 /* Alinia_PI_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alinia_PI_2.png; sourceTree = "<group>"; };
+		F8FDB8261AC97C3600AC3315 /* Alinia_PI_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alinia_PI_3.png; sourceTree = "<group>"; };
+		F8FDB8271AC97C3600AC3315 /* Alinia_PI_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alinia_PI_4.png; sourceTree = "<group>"; };
+		F8FDB8281AC97C3600AC3315 /* Alinia_PI_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alinia_PI_5.png; sourceTree = "<group>"; };
+		F8FDB82F1AC97CF800AC3315 /* ViewController_ISI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_ISI.h; sourceTree = "<group>"; };
+		F8FDB8301AC97CF800AC3315 /* ViewController_ISI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_ISI.m; sourceTree = "<group>"; };
+		F8FDB8321AC986F700AC3315 /* ViewController_PI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_PI.h; sourceTree = "<group>"; };
+		F8FDB8331AC986F700AC3315 /* ViewController_PI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_PI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F820DF21196D8DD50054082D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F820DF82196DA1990054082D /* MessageUI.framework in Frameworks */,
+				F820DF2A196D8DD50054082D /* CoreGraphics.framework in Frameworks */,
+				F820DF2C196D8DD50054082D /* UIKit.framework in Frameworks */,
+				F820DF28196D8DD50054082D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F820DF42196D8DD50054082D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F820DF47196D8DD50054082D /* XCTest.framework in Frameworks */,
+				F820DF49196D8DD50054082D /* UIKit.framework in Frameworks */,
+				F820DF48196D8DD50054082D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8105D2419D9F175007DCECA /* Updated Images */ = {
+			isa = PBXGroup;
+			children = (
+				F8105D1E19D9F16E007DCECA /* ALINIA_Dosing_APP_iPad_Screens_ISI_9_29_14-1.png */,
+				F8105D1F19D9F16E007DCECA /* PI_Text_3.png */,
+			);
+			name = "Updated Images";
+			sourceTree = "<group>";
+		};
+		F820DF1B196D8DD40054082D = {
+			isa = PBXGroup;
+			children = (
+				F820DF2D196D8DD50054082D /* AliniaDosing_iPad */,
+				F820DF4C196D8DD50054082D /* AliniaDosing_iPadTests */,
+				F820DF26196D8DD50054082D /* Frameworks */,
+				F820DF25196D8DD50054082D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F820DF25196D8DD50054082D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F820DF24196D8DD50054082D /* AliniaDosing_iPad.app */,
+				F820DF45196D8DD50054082D /* AliniaDosing_iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F820DF26196D8DD50054082D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F820DF81196DA1990054082D /* MessageUI.framework */,
+				F820DF27196D8DD50054082D /* Foundation.framework */,
+				F820DF29196D8DD50054082D /* CoreGraphics.framework */,
+				F820DF2B196D8DD50054082D /* UIKit.framework */,
+				F820DF46196D8DD50054082D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F820DF2D196D8DD50054082D /* AliniaDosing_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F820DF39196D8DD50054082D /* Main.storyboard */,
+				F820DF36196D8DD50054082D /* AppDelegate.h */,
+				F820DF37196D8DD50054082D /* AppDelegate.m */,
+				F820DF66196D8FC70054082D /* Disclaimer Page */,
+				F820DF65196D8FB30054082D /* Dosing */,
+				F8B227A31B0684E7002906F6 /* ISI */,
+				F8B227A21B0684CF002906F6 /* PI */,
+				F820DF3F196D8DD50054082D /* Images.xcassets */,
+				F820DF2E196D8DD50054082D /* Supporting Files */,
+			);
+			path = AliniaDosing_iPad;
+			sourceTree = "<group>";
+		};
+		F820DF2E196D8DD50054082D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3EC401B1F7C3C00571DC8 /* ALINIA_ISI_Dosing_App_6_3_15_150dpi.png */,
+				F8B227A01B0675C4002906F6 /* dosing_2.png */,
+				F87856001ADDBE700078D5DA /* dosing_background_text_noisi.png */,
+				F8FDB8231AC97C3600AC3315 /* Alinia_ISI.png */,
+				F8FDB8241AC97C3600AC3315 /* Alinia_PI_1.png */,
+				F8FDB8251AC97C3600AC3315 /* Alinia_PI_2.png */,
+				F8FDB8261AC97C3600AC3315 /* Alinia_PI_3.png */,
+				F8FDB8271AC97C3600AC3315 /* Alinia_PI_4.png */,
+				F8FDB8281AC97C3600AC3315 /* Alinia_PI_5.png */,
+				F8105D2419D9F175007DCECA /* Updated Images */,
+				F826C93F19CCAD0C0020C9CD /* Load_Screen_2.png */,
+				F826C94019CCAD0C0020C9CD /* dosing_background_text_2.png */,
+				F826C94119CCAD0C0020C9CD /* PI_Text_2.png */,
+				F826C94219CCAD0C0020C9CD /* PI_Text_blank_2.png */,
+				F850001D198832CD006452E1 /* Safety Information Link.png */,
+				F83FE14419BA435B0031A6BC /* CoPay_Button.png */,
+				F820DF67196D90810054082D /* continue_button.png */,
+				F820DF68196D90810054082D /* mail_button.png */,
+				F820DF69196D90810054082D /* PI_button.png */,
+				F820DF6A196D90810054082D /* Load_Screen.png */,
+				F820DF6B196D90810054082D /* PI_background.png */,
+				F820DF6C196D90810054082D /* dosing_background_text.png */,
+				F820DF6D196D90810054082D /* age_range_image.png */,
+				F820DF6E196D90810054082D /* dosing_1.png */,
+				F810177D19B908AB0006FD67 /* dosing_3.png */,
+				F820DF71196D90810054082D /* PI_text.png */,
+				F820DF72196D90810054082D /* PI_text_blank.png */,
+				F820DF73196D90810054082D /* AgeRange_button.png */,
+				F820DF2F196D8DD50054082D /* AliniaDosing_iPad-Info.plist */,
+				F820DF30196D8DD50054082D /* InfoPlist.strings */,
+				F820DF33196D8DD50054082D /* main.m */,
+				F820DF35196D8DD50054082D /* AliniaDosing_iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F820DF4C196D8DD50054082D /* AliniaDosing_iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				F820DF52196D8DD50054082D /* AliniaDosing_iPadTests.m */,
+				F820DF4D196D8DD50054082D /* Supporting Files */,
+			);
+			path = AliniaDosing_iPadTests;
+			sourceTree = "<group>";
+		};
+		F820DF4D196D8DD50054082D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F820DF4E196D8DD50054082D /* AliniaDosing_iPadTests-Info.plist */,
+				F820DF4F196D8DD50054082D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F820DF65196D8FB30054082D /* Dosing */ = {
+			isa = PBXGroup;
+			children = (
+				F820DF62196D8FA50054082D /* ViewController_dosing.h */,
+				F820DF63196D8FA50054082D /* ViewController_dosing.m */,
+			);
+			name = Dosing;
+			sourceTree = "<group>";
+		};
+		F820DF66196D8FC70054082D /* Disclaimer Page */ = {
+			isa = PBXGroup;
+			children = (
+				F820DF3C196D8DD50054082D /* ViewController.h */,
+				F820DF3D196D8DD50054082D /* ViewController.m */,
+			);
+			name = "Disclaimer Page";
+			sourceTree = "<group>";
+		};
+		F8B227A21B0684CF002906F6 /* PI */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDB8321AC986F700AC3315 /* ViewController_PI.h */,
+				F8FDB8331AC986F700AC3315 /* ViewController_PI.m */,
+			);
+			name = PI;
+			sourceTree = "<group>";
+		};
+		F8B227A31B0684E7002906F6 /* ISI */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDB82F1AC97CF800AC3315 /* ViewController_ISI.h */,
+				F8FDB8301AC97CF800AC3315 /* ViewController_ISI.m */,
+			);
+			name = ISI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F820DF23196D8DD50054082D /* AliniaDosing_iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F820DF56196D8DD50054082D /* Build configuration list for PBXNativeTarget "AliniaDosing_iPad" */;
+			buildPhases = (
+				F820DF20196D8DD50054082D /* Sources */,
+				F820DF21196D8DD50054082D /* Frameworks */,
+				F820DF22196D8DD50054082D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliniaDosing_iPad;
+			productName = AliniaDosing_iPad;
+			productReference = F820DF24196D8DD50054082D /* AliniaDosing_iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F820DF44196D8DD50054082D /* AliniaDosing_iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F820DF59196D8DD50054082D /* Build configuration list for PBXNativeTarget "AliniaDosing_iPadTests" */;
+			buildPhases = (
+				F820DF41196D8DD50054082D /* Sources */,
+				F820DF42196D8DD50054082D /* Frameworks */,
+				F820DF43196D8DD50054082D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F820DF4B196D8DD50054082D /* PBXTargetDependency */,
+			);
+			name = AliniaDosing_iPadTests;
+			productName = AliniaDosing_iPadTests;
+			productReference = F820DF45196D8DD50054082D /* AliniaDosing_iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F820DF1C196D8DD40054082D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lupin Pharmaceuticals";
+				TargetAttributes = {
+					F820DF23196D8DD50054082D = {
+						DevelopmentTeam = 87DKUX55Q9;
+					};
+					F820DF44196D8DD50054082D = {
+						DevelopmentTeam = 87DKUX55Q9;
+						TestTargetID = F820DF23196D8DD50054082D;
+					};
+				};
+			};
+			buildConfigurationList = F820DF1F196D8DD40054082D /* Build configuration list for PBXProject "AliniaDosing_iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F820DF1B196D8DD40054082D;
+			productRefGroup = F820DF25196D8DD50054082D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F820DF23196D8DD50054082D /* AliniaDosing_iPad */,
+				F820DF44196D8DD50054082D /* AliniaDosing_iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F820DF22196D8DD50054082D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F820DF7F196D90810054082D /* PI_text_blank.png in Resources */,
+				F826C94519CCAD0C0020C9CD /* PI_Text_2.png in Resources */,
+				F8FDB82C1AC97C3600AC3315 /* Alinia_PI_3.png in Resources */,
+				F8FDB82D1AC97C3600AC3315 /* Alinia_PI_4.png in Resources */,
+				F810177E19B908AB0006FD67 /* dosing_3.png in Resources */,
+				F8105D2219D9F16E007DCECA /* PI_Text_3.png in Resources */,
+				F8500021198832CD006452E1 /* Safety Information Link.png in Resources */,
+				F820DF7E196D90810054082D /* PI_text.png in Resources */,
+				F826C94619CCAD0C0020C9CD /* PI_Text_blank_2.png in Resources */,
+				F8B227A11B0675C4002906F6 /* dosing_2.png in Resources */,
+				F820DF7A196D90810054082D /* age_range_image.png in Resources */,
+				F820DF40196D8DD50054082D /* Images.xcassets in Resources */,
+				F820DF7B196D90810054082D /* dosing_1.png in Resources */,
+				F8B3EC411B1F7C3C00571DC8 /* ALINIA_ISI_Dosing_App_6_3_15_150dpi.png in Resources */,
+				F820DF32196D8DD50054082D /* InfoPlist.strings in Resources */,
+				F8FDB82A1AC97C3600AC3315 /* Alinia_PI_1.png in Resources */,
+				F820DF76196D90810054082D /* PI_button.png in Resources */,
+				F820DF74196D90810054082D /* continue_button.png in Resources */,
+				F820DF78196D90810054082D /* PI_background.png in Resources */,
+				F87856011ADDBE700078D5DA /* dosing_background_text_noisi.png in Resources */,
+				F826C94419CCAD0C0020C9CD /* dosing_background_text_2.png in Resources */,
+				F820DF80196D90810054082D /* AgeRange_button.png in Resources */,
+				F8FDB82B1AC97C3600AC3315 /* Alinia_PI_2.png in Resources */,
+				F820DF75196D90810054082D /* mail_button.png in Resources */,
+				F8105D2119D9F16E007DCECA /* ALINIA_Dosing_APP_iPad_Screens_ISI_9_29_14-1.png in Resources */,
+				F8FDB8291AC97C3600AC3315 /* Alinia_ISI.png in Resources */,
+				F8FDB82E1AC97C3600AC3315 /* Alinia_PI_5.png in Resources */,
+				F826C94319CCAD0C0020C9CD /* Load_Screen_2.png in Resources */,
+				F83FE14519BA435B0031A6BC /* CoPay_Button.png in Resources */,
+				F820DF79196D90810054082D /* dosing_background_text.png in Resources */,
+				F820DF77196D90810054082D /* Load_Screen.png in Resources */,
+				F820DF3B196D8DD50054082D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F820DF43196D8DD50054082D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F820DF51196D8DD50054082D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F820DF20196D8DD50054082D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FDB8311AC97CF800AC3315 /* ViewController_ISI.m in Sources */,
+				F820DF64196D8FA50054082D /* ViewController_dosing.m in Sources */,
+				F820DF3E196D8DD50054082D /* ViewController.m in Sources */,
+				F8FDB8341AC986F700AC3315 /* ViewController_PI.m in Sources */,
+				F820DF38196D8DD50054082D /* AppDelegate.m in Sources */,
+				F820DF34196D8DD50054082D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F820DF41196D8DD50054082D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F820DF53196D8DD50054082D /* AliniaDosing_iPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F820DF4B196D8DD50054082D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F820DF23196D8DD50054082D /* AliniaDosing_iPad */;
+			targetProxy = F820DF4A196D8DD50054082D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F820DF30196D8DD50054082D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F820DF31196D8DD50054082D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F820DF39196D8DD50054082D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F820DF3A196D8DD50054082D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F820DF4F196D8DD50054082D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F820DF50196D8DD50054082D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F820DF54196D8DD50054082D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e5137082-ca57-4464-8442-093d7800ac8a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F820DF55196D8DD50054082D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "e5137082-ca57-4464-8442-093d7800ac8a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F820DF57196D8DD50054082D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AliniaDosing_iPad/AliniaDosing_iPad-Prefix.pch";
+				INFOPLIST_FILE = "AliniaDosing_iPad/AliniaDosing_iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e5137082-ca57-4464-8442-093d7800ac8a";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F820DF58196D8DD50054082D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AliniaDosing_iPad/AliniaDosing_iPad-Prefix.pch";
+				INFOPLIST_FILE = "AliniaDosing_iPad/AliniaDosing_iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e5137082-ca57-4464-8442-093d7800ac8a";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F820DF5A196D8DD50054082D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AliniaDosing_iPad.app/AliniaDosing_iPad";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AliniaDosing_iPad/AliniaDosing_iPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AliniaDosing_iPadTests/AliniaDosing_iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F820DF5B196D8DD50054082D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AliniaDosing_iPad.app/AliniaDosing_iPad";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AliniaDosing_iPad/AliniaDosing_iPad-Prefix.pch";
+				INFOPLIST_FILE = "AliniaDosing_iPadTests/AliniaDosing_iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F820DF1F196D8DD40054082D /* Build configuration list for PBXProject "AliniaDosing_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F820DF54196D8DD50054082D /* Debug */,
+				F820DF55196D8DD50054082D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F820DF56196D8DD50054082D /* Build configuration list for PBXNativeTarget "AliniaDosing_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F820DF57196D8DD50054082D /* Debug */,
+				F820DF58196D8DD50054082D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F820DF59196D8DD50054082D /* Build configuration list for PBXNativeTarget "AliniaDosing_iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F820DF5A196D8DD50054082D /* Debug */,
+				F820DF5B196D8DD50054082D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F820DF1C196D8DD40054082D /* Project object */;
+}
